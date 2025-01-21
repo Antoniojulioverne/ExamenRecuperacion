@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.recuperacion.pruebas"
-    compileSdk = 35
+    namespace = "com.example.examenjpc_1"
+    compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.recuperacion.pruebas"
+        applicationId = "com.example.examenjpc_1"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -60,7 +60,6 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     implementation(libs.androidx.navigation.compose)
-    implementation(libs.androidx.runtime.livedata)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
